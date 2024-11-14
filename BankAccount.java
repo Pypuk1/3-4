@@ -9,8 +9,6 @@ public class BankAccount {
     private String ContactNumber;
     private String NameBank;
     private String bonus;
-
-
     // Конструктор
     public BankAccount(String AccountNumber, BigDecimal balance, String owner, String ContactNumber, String NameBank, String bonus) {
         this.AccountNumber = AccountNumber;
@@ -81,12 +79,6 @@ public class BankAccount {
     public BigDecimal showBalanse() {
         return balance;
     }
-
-
-
-
-
-
     public static void main(String[] args) {
 
 BankAccount matvey = new BankAccount("11347879879123", new BigDecimal("1555.9999999999"), "Матвей", "8961777213231", "Тинькофф", "Черная пятница");
